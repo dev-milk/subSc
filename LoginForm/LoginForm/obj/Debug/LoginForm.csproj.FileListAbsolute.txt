@@ -1,0 +1,12 @@
+C:\Users\KAYOKO ISHINO\devmilk\subSc\LoginForm\LoginForm\bin\Debug\LoginForm.exe.config
+C:\Users\KAYOKO ISHINO\devmilk\subSc\LoginForm\LoginForm\bin\Debug\LoginForm.exe
+C:\Users\KAYOKO ISHINO\devmilk\subSc\LoginForm\LoginForm\bin\Debug\LoginForm.pdb
+C:\Users\KAYOKO ISHINO\devmilk\subSc\LoginForm\LoginForm\obj\Debug\LoginForm.csproj.AssemblyReference.cache
+C:\Users\KAYOKO ISHINO\devmilk\subSc\LoginForm\LoginForm\obj\Debug\LoginForm.csproj.SuggestedBindingRedirects.cache
+C:\Users\KAYOKO ISHINO\devmilk\subSc\LoginForm\LoginForm\obj\Debug\LoginForm.UserForm.resources
+C:\Users\KAYOKO ISHINO\devmilk\subSc\LoginForm\LoginForm\obj\Debug\LoginForm.Properties.Resources.resources
+C:\Users\KAYOKO ISHINO\devmilk\subSc\LoginForm\LoginForm\obj\Debug\LoginForm.csproj.GenerateResource.cache
+C:\Users\KAYOKO ISHINO\devmilk\subSc\LoginForm\LoginForm\obj\Debug\LoginForm.csproj.CoreCompileInputs.cache
+C:\Users\KAYOKO ISHINO\devmilk\subSc\LoginForm\LoginForm\obj\Debug\LoginForm.exe
+C:\Users\KAYOKO ISHINO\devmilk\subSc\LoginForm\LoginForm\obj\Debug\LoginForm.pdb
+C:\Users\KAYOKO ISHINO\devmilk\subSc\LoginForm\LoginForm\obj\Debug\LoginForm.MainMenu.resources
