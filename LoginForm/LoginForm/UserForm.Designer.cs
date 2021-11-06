@@ -28,28 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.MailAddressLebel = new System.Windows.Forms.Label();
-            this.MailAddressBox = new System.Windows.Forms.TextBox();
+            this.ServiceCodeLabel = new System.Windows.Forms.Label();
+            this.ServiceCodeBox = new System.Windows.Forms.TextBox();
             this.PassCodeBox = new System.Windows.Forms.TextBox();
             this.PassCodeLabel = new System.Windows.Forms.Label();
             this.LoginButton = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // MailAddressLebel
+            // ServiceCodeLabel
             // 
-            this.MailAddressLebel.AutoSize = true;
-            this.MailAddressLebel.Location = new System.Drawing.Point(95, 90);
-            this.MailAddressLebel.Name = "MailAddressLebel";
-            this.MailAddressLebel.Size = new System.Drawing.Size(69, 12);
-            this.MailAddressLebel.TabIndex = 0;
-            this.MailAddressLebel.Text = "メールアドレス";
+            this.ServiceCodeLabel.AutoSize = true;
+            this.ServiceCodeLabel.Location = new System.Drawing.Point(95, 90);
+            this.ServiceCodeLabel.Name = "ServiceCodeLabel";
+            this.ServiceCodeLabel.Size = new System.Drawing.Size(69, 12);
+            this.ServiceCodeLabel.TabIndex = 0;
+            this.ServiceCodeLabel.Text = "サービスコード";
             // 
-            // MailAddressBox
+            // ServiceCodeBox
             // 
-            this.MailAddressBox.Location = new System.Drawing.Point(170, 87);
-            this.MailAddressBox.Name = "MailAddressBox";
-            this.MailAddressBox.Size = new System.Drawing.Size(204, 19);
-            this.MailAddressBox.TabIndex = 1;
+            this.ServiceCodeBox.Location = new System.Drawing.Point(170, 87);
+            this.ServiceCodeBox.Name = "ServiceCodeBox";
+            this.ServiceCodeBox.Size = new System.Drawing.Size(204, 19);
+            this.ServiceCodeBox.TabIndex = 1;
             // 
             // PassCodeBox
             // 
@@ -87,8 +87,8 @@
             this.Controls.Add(this.LoginButton);
             this.Controls.Add(this.PassCodeBox);
             this.Controls.Add(this.PassCodeLabel);
-            this.Controls.Add(this.MailAddressBox);
-            this.Controls.Add(this.MailAddressLebel);
+            this.Controls.Add(this.ServiceCodeBox);
+            this.Controls.Add(this.ServiceCodeLabel);
             this.Name = "UserForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ログイン画面";
@@ -99,8 +99,8 @@
 
         #endregion
 
-        private System.Windows.Forms.Label MailAddressLebel;
-        private System.Windows.Forms.TextBox MailAddressBox;
+        private System.Windows.Forms.Label ServiceCodeLabel;
+        private System.Windows.Forms.TextBox ServiceCodeBox;
         private System.Windows.Forms.TextBox PassCodeBox;
         private System.Windows.Forms.Label PassCodeLabel;
         private System.Windows.Forms.Button LoginButton;
