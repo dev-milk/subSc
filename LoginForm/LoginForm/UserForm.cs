@@ -59,7 +59,7 @@ namespace LoginForm
            
         }
 
-        //TextBox1のKeyPressイベントハンドラ
+        //PassCodeBoxのKeyPressイベントハンドラ
         private void PassCodeBox_KeyPress(object sender,
             System.Windows.Forms.KeyPressEventArgs e)
         {
