@@ -1,17 +1,3 @@
-# subSc
-
-# DEMO
-
- 
-# Features
- 
-# Usage
- 
- 
-# Note
- 
-
- 
 # Author
  
 * devmilk
