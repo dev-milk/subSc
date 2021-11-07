@@ -15,10 +15,31 @@ namespace LoginForm
         public UserForm()
         {
             InitializeComponent();
+
+            LoginButton.Enabled = false;
+
+        }
+
+        private void PassCodeBox_TextChanged(object sender, EventArgs e)
+        {
+            SetPassCodeBox();
+        }
+
+        private void SetPassCodeBox()
+        {
+            if (double.Parse(PassCodeBox.Text) > 0)
+            {
+                LoginButton.Enabled = true;
+            }
+            else
+            {
+                LoginButton.Enabled = false;
+            }
         }
 
         private void LoginButton_Click(object sender, EventArgs e)
         {
+          
             using (MainMenu f = new MainMenu())
             {
                 f.ShowDialog();
@@ -26,6 +47,5 @@ namespace LoginForm
            
         }
 
-       
     }
 }

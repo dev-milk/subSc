@@ -57,6 +57,7 @@
             this.PassCodeBox.Name = "PassCodeBox";
             this.PassCodeBox.Size = new System.Drawing.Size(204, 19);
             this.PassCodeBox.TabIndex = 3;
+            this.PassCodeBox.TextChanged += new System.EventHandler(this.PassCodeBox_TextChanged);
             // 
             // PassCodeLabel
             // 
@@ -70,7 +71,7 @@
             // LoginButton
             // 
             this.LoginButton.BackColor = System.Drawing.SystemColors.MenuText;
-            this.LoginButton.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.LoginButton.ForeColor = System.Drawing.SystemColors.Control;
             this.LoginButton.Location = new System.Drawing.Point(196, 216);
             this.LoginButton.Name = "LoginButton";
             this.LoginButton.Size = new System.Drawing.Size(130, 35);
