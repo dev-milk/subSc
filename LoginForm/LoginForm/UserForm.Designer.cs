@@ -54,10 +54,12 @@
             // PassCodeBox
             // 
             this.PassCodeBox.Location = new System.Drawing.Point(170, 139);
+            this.PassCodeBox.MaxLength = 6;
             this.PassCodeBox.Name = "PassCodeBox";
             this.PassCodeBox.Size = new System.Drawing.Size(204, 19);
             this.PassCodeBox.TabIndex = 3;
             this.PassCodeBox.TextChanged += new System.EventHandler(this.PassCodeBox_TextChanged);
+            this.PassCodeBox.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.PassCodeBox_KeyPress);
             // 
             // PassCodeLabel
             // 
